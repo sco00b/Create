@@ -16,6 +16,8 @@ var myGameCharacter;
 var GameObstacle;
 
 
+
+
 function startGame() {
     myGameCharacter = new component(30, 30, "blue", 10, 120);
     GameObstacle = new component(20,250, "red", 310,120);
